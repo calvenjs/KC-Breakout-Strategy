@@ -1,6 +1,6 @@
 # Intraday Breakout Strategy in Python: Template Project
 
-This base project uses Keltner Channels and OBV on 5 min ticks to generate trading signals according to direction of the stock.
+This base project uses Keltner Channels and OBV on 5 min ticks to generate trading signals according to direction of the stock. This strategy focuses on small-cap stocks.
 
 ## Overview
 
