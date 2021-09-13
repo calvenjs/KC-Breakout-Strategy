@@ -12,7 +12,7 @@ The overall workflow for this project:
 4. Calculate returns, CAGR, and Max Drawdown
 
 ### Strategy Overview
-Long-only  
+**Long-only**  
 Entry:  
 If the asset closes above the upper channel, obv is higher than obv_ema, a buy signal is generated.  
 Exit:  
