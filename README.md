@@ -9,7 +9,7 @@ The overall workflow for this project:
 1. Acquire the stock price data - using alphavantage.
 2. Populate Technical Indicators into OHLC dictionary.
 3. Populate Buy and Sell signals.
-4. Calculate returns, CAGR, Max Drawdown and Calmar Ratio
+4. Calculate returns, CAGR, and Max Drawdown
 
 ### Strategy Overview
 Long-only  
