@@ -21,7 +21,7 @@ If the asset closes below the middle channel (20 EMA), obv is lower than obv_ema
 ### Evaluation
 During the period (2021-08-16 to 2021-09-10) of high retail interest in tickers ["IRNT","ATER","SPRT","BBIG"]  
 The portfolio had a 492.97%  returns.  
-Individual stock performance {'IRNT': 0.3768123416497192, 'ATER': 0.9686530583074406, 'SPRT': 1.5099510917875567, 'BBIG': 2.0742822404814643}
+Individual stock performance in % {'IRNT': 0.38, 'ATER': 0.97, 'SPRT': 1.51, 'BBIG': 2.07}
 
 
 # Work still in progress...
