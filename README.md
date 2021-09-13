@@ -11,6 +11,12 @@ The overall workflow for this project:
 3. Populate Buy and Sell signals.
 4. Calculate returns and CAGR
 
+### Strategy Overview
+Long-only
+Entry:
+If the asset closes above the upper channel, obv is higher than obv_ema, a buy signal is generated.
+Exit:
+If the asset closes below the middle channel (20 EMA), obv is lower than obv_ema, a sell signal is generated. 
 
 # Work still in progress...
 
