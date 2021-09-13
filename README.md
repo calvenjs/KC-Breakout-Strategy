@@ -9,14 +9,18 @@ The overall workflow for this project:
 1. Acquire the stock price data - using alphavantage.
 2. Populate Technical Indicators into OHLC dictionary.
 3. Populate Buy and Sell signals.
-4. Calculate returns and CAGR
+4. Calculate returns, CAGR, Max Drawdown and Calmar Ratio
 
 ### Strategy Overview
-Long-only
-Entry:
-If the asset closes above the upper channel, obv is higher than obv_ema, a buy signal is generated.
-Exit:
+Long-only  
+Entry:  
+If the asset closes above the upper channel, obv is higher than obv_ema, a buy signal is generated.  
+Exit:  
 If the asset closes below the middle channel (20 EMA), obv is lower than obv_ema, a sell signal is generated. 
+
+### Evaluation
+
+
 
 # Work still in progress...
 1. Working on screening tickers for the strategy (currently uses high volatile stocks frequently mentioned my retail traders)
