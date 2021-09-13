@@ -140,7 +140,7 @@ def keltner_signal(df, i, ticker):
     #More accurate during first 30 minutes of market open
     if df[ticker]["Close"][i] > df[ticker]["upper_band"][i]:
         df[ticker]["keltner_signal"][i] = "BREAKOUT BUY"
-    elif df[ticker]["Close"][i] <= df[ticker]["EMA"][i]:
+    elif df[ticker]["Close"][i] < df[ticker]["EMA"][i]:
         df[ticker]["keltner_signal"][i] = "CLOSE TRADE"
     else:
         df[ticker]["keltner_signal"][i] = "NO SIGNAL"
@@ -229,17 +229,11 @@ for ticker in tickers:
 #Individual stock performance
 print({k:sum(v) for k,v in tickers_ret.items()}) 
 
-#If i invested $1000, what are my returns + principal amount
-value = (total_ret*1000)+1000 
+#If i invested $100, what are my returns + principal amount
+value = (total_ret*100)+100
+returns_per = ((value-100)/100)*100
+
+print("Total Returns is " + str(round(returns_per,2)) + "%")
 
 n = len(stock)
 CAGR = (value/1000)**(1/n)-1
-
-
-
-
-
-        
-
-    
-    
