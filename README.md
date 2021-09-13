@@ -21,4 +21,4 @@ If the asset closes below the middle channel (20 EMA), obv is lower than obv_ema
 # Work still in progress...
 1. Working on screening tickers for the strategy (currently uses high volatile stocks frequently mentioned my retail traders)
 
-*As a disclaimer, this is a purely educational project. Any backtested results do not guarantee performance in live trading. Do live trading at your own risk.*
+*As a disclaimer, this is a purely a self-initiated educational project. Any backtested results do not guarantee performance in live trading. Do live trading at your own risk.*
