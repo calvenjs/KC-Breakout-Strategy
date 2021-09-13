@@ -12,6 +12,6 @@ The overall workflow for this project:
 4. Calculate returns and CAGR
 
 
-# Work still in progress
+# Work still in progress...
 
 *As a disclaimer, this is a purely educational project. Any backtested results do not guarantee performance in live trading. Do live trading at your own risk.*
