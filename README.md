@@ -2,6 +2,9 @@
 
 This base project uses Keltner Channels and OBV on 5 min ticks to generate trading signals according to direction of the stock. This strategy focuses on small-cap/mid-cap stocks.
 
+## Introduction
+This project implements Keltner Channels on python to detect breakouts of a particular asset. It is supported by other technical indicators such as obv.  
+
 ## Overview
 
 The overall workflow for this project:
