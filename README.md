@@ -32,4 +32,4 @@ Individual stock performance in % {'IRNT': 0.38, 'ATER': 0.97, 'SPRT': 1.51, 'BB
 2. Though the strategy shows significant returns, more filters can be implemented to reduce whipsaws, drawdown and volatility
 3. Incorporate short strategy
 
-*As a disclaimer, this is a purely a self-initiated educational project. Any backtested results do not guarantee performance in live trading. Do live trading at your own risk.*
+*As a disclaimer, this is a purely self-initiated educational project. Any backtested results do not guarantee performance in live trading. Do live trading at your own risk.*
